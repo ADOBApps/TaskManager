@@ -4,8 +4,6 @@ node_modules
 # Ignora todos los archivos de texto
 *.txt
 
-
-
 # misc
 
 # Ignora archivos del sistema Mac 

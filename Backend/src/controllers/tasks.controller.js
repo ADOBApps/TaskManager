@@ -37,7 +37,7 @@ tasksctrl.updateTask = async (req, res) => {
 }
 
 tasksctrl.deleteTask = async (req, res) => {
-	await Taskmodel.findByIdAndDelete(req.params.id)
+	await Taskmodel.findByIdAndDelete(req.params.id);
 	res.json({'message': 'task deleted'});
 	console.log('task deleted');
 }
